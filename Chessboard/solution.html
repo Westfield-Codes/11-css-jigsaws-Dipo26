@@ -6,10 +6,15 @@
     <title>Chess Board</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-      /* Give the odd-class rows a background-color of #f2f2f2 */
-        
-      /* Give the even-class columns a background-color of #f2f2f2 */
+     #board li:nth-child(even) {
+      background-color: brown;
+     }
+     #board li ol.even:nth-child(odd) {
+      background-color: aquamarine;
+     }
 
+      /* Give the odd-class rows a background-color of #f2f2f2 */
+      /* Give the even-class columns a background-color of #f2f2f2 */
       /* Combine them below (erasing the rules above) */
     </style>
 </head>
